@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is JJ</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #ff00cc, #333399);
+            background-size: 400% 400%;
+            animation: gradientAnimation 6s infinite;
+            color: white;
+            text-align: center;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        h1 {
+            background: linear-gradient(90deg, #ff00ff, #ff9900);
+            color: white;
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+            padding: 20px;
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff9900, 0 0 30px #ff9900;
+            animation: pulseText 2s infinite;
+        }
+
+        @keyframes pulseText {
+            0% { text-shadow: 0 0 10px #ff9900, 0 0 20px #ff00ff; }
+            50% { text-shadow: 0 0 20px #ff00ff, 0 0 30px #00ffcc; }
+            100% { text-shadow: 0 0 10px #ff9900, 0 0 20px #ff00ff; }
+        }
+
+        video {
+            margin-top: 30px;
+            border: 5px solid #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        video:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 30px #ff9900, 0 0 40px #ff00ff;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: linear-gradient(90deg, #ff00ff, #ff9900, #00ffcc, #333399);
+            background-size: 400% 400%;
+            animation: footerAnimation 3s infinite;
+            color: white;
+            padding: 20px;
+            text-shadow: 0 0 10px #fff, 0 0 20px #00ffcc, 0 0 30px #00ffcc;
+            font-size: 1.5rem;
+            font-weight: bold;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        @keyframes footerAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        footer span {
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc; }
+            50% { text-shadow: 0 0 20px #ff9900, 0 0 30px #ff00ff, 0 0 40px #ff00ff; }
+            100% { text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JJ & DJ Bergabung Here</h1>
+    </header>
+    <p>Jom layan DJ kalau stress, santai ja, practical ja esokkk HAHAHAHAHHAHAHHA 🎶🔥</p>
+    <video controls width="400" height="300" src="assets/djgemoy01.mp4">Vid1</video>
+    <video controls width="400" height="300" src="assets/dj01.mp4">Vid1</video>
+    <video controls width="400" height="300" src="assets/dj2.mp4">Vid1</video>
+    <video controls width="400" height="300" src="assets/dj4.mp4">Vid1</video>
+    <video controls width="400" height="300" src="assets/dj5.mp4">Vid1</video>
+    <footer>
+        Created by <span>AzminKacak</span> 🔥🎶💥
+    </footer>
+</body>
+</html>
